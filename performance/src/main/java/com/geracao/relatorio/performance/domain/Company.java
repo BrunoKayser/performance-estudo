@@ -33,9 +33,6 @@ public class Company {
        return !INVALID_CLAUSULES_COMPANY
                 .stream()
                 .anyMatch(clausure -> clausure.apply("Not need parameter"));
-
-
     }
-
 
 }
